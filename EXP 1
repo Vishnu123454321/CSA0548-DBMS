@@ -60,23 +60,3 @@ mysql> desc table_course;
 | hall_no     | int(10)     | YES  |     | NULL    |       |
 | fac_no      | int(10)     | YES  |     | NULL    |       |
 +-------------+-------------+------+-----+---------+-------+
- 104 changes: 104 additions & 0 deletions104  
-experiment 2.txt
-@@ -0,0 +1,104 @@
-1)
-mysql> use db_department;
-Database changed
-mysql> desc table_student;
-+-----------+-------------+------+-----+---------+-------+
-| Field     | Type        | Null | Key | Default | Extra |
-+-----------+-------------+------+-----+---------+-------+
-| reg_no    | int(10)     | NO   | PRI | 0       |       |
-| name      | varchar(10) | YES  |     | NULL    |       |
-| gender    | varchar(10) | YES  |     | NULL    |       |
-| DOB       | int(10)     | YES  |     | NULL    |       |
-| DOJ       | int(10)     | YES  |     | NULL    |       |
-| mobile_no | int(10)     | YES  |     | NULL    |       |
-+-----------+-------------+------+-----+---------+-------+
-6 rows in set (0.11 sec)
-
-
